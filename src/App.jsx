@@ -14,6 +14,8 @@ export default function App() {
 
   return (
     <div className="app">
+          <title>Solano Solar Cleaning</title> 
+
       <ComingSoon/>
 {/*
 
