@@ -1,8 +1,8 @@
 // src/components/ComingSoon.jsx
 
-import './ComingSoon.css';
+import './Comingsoon.css';
 
-export default function ComingSoon() {
+export default function Comingsoon() {
   return (
     <div className="coming-soon">
       <div className="overlay">
