@@ -5,7 +5,7 @@ import  Carousel  from './Carousel';
 import Hero from './Hero';
 import Services from './Services';
 import Services_rows from './Services_rows';
-import FAQSection from './FAQSection';
+import FAQSection from './FAQsection';
 import Footer from './Footer';
 
 export default function App() {
