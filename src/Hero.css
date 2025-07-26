@@ -1,0 +1,80 @@
+/* === Fullscreen Hero Carousel === */
+section {
+  background-color: rgb(49, 52, 56);
+}
+
+
+/* === Hero Info Section === */
+/* Set white background for the hero section */
+.hero-info {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  color: #00b2e3;
+}
+
+/* Black hero card */
+.hero-card {
+  background-color: #9ba7b6;
+  padding: 2rem;
+  border: 1px solid #333;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.hero-card h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 1rem;
+  color: #00b2e3;
+}
+
+.hero-card p {
+  font-size: 18px;
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+}
+
+/* Flex columns inside the black card */
+.info-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Each column of info inside the card */
+.info-column {
+  flex: 1 1 30%;
+  text-align: left;
+}
+
+/* Headings inside columns */
+.hero-card h3 {
+  color: #00b2e3;
+  margin-bottom: 1rem;
+}
+
+/* Text inside lists */
+.hero-card ul {
+  list-style-type: "✓ ";
+  padding-left: 1.5em;
+  font-size: 16px;
+  color: #fff;
+}
+
+.areas-list {
+  list-style-type: "📍 ";
+}
+
+.areas-list-1 {
+  align-items: left;  
+}
+
+
+
+
