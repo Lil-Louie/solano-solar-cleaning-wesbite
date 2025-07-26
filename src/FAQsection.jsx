@@ -1,4 +1,4 @@
-import './FAQSection.css';
+import './FAQsection.css';
 import { useState, useRef, useEffect } from 'react';
 
 const faqData = [
