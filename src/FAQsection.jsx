@@ -29,7 +29,7 @@ const faqData = [
   },
 ];
 
-export default function FAQSection() {
+export default function FAQsection() {
   const [openIndexes, setOpenIndexes] = useState([]);
 
   const toggle = (index) => {
