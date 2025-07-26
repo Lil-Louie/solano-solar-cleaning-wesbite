@@ -7,18 +7,24 @@ import Services from './Services';
 import Services_rows from './Services_rows';
 import FAQSection from './FAQsection';
 import Footer from './Footer';
+import ComingSoon from './Comingsoon';
 
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <div className="app">
+      <ComingSoon/>
+{/*
+
       <Header/>
 
       <main>
       <Carousel />
         <section id='services'>
-          {/*<Services />*/}
+
+          {  <Services /> *}
+
           <Services_rows /> 
          </section>
 
@@ -30,6 +36,7 @@ export default function App() {
       <section id='contact'>
         <Footer />
       </section>
+  */}
 
     </div>
   );
