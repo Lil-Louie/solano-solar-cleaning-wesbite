@@ -16,24 +16,31 @@ export default function ImageCarousel() {
         <div>
           <img src="assets/carousel-img-1.JPG" alt="Solar Panel 1" width="300" height="200" />
         </div>
+
         <div>
           <img src="/assets/carousel-img-2.JPG" alt="Solar Panel 2" width="600" height="200" />
         </div>
+
         <div>
           <img src="/assets/carousel-img-3.jpeg" alt="Solar Panel 3" width="600" height="200" />
         </div>
+
         <div>
           <img src="/assets/carousel-img-4.JPG" alt="Solar Panel 4" width="600" height="200" />
         </div>
+
         <div>
           <img src="/assets/carousel-img-5.JPG" alt="Solar Panel 5" width="600" height="200" />
         </div>
+
         <div>
           <img src="/assets/carousel-img-6.JPG" alt="Solar Panel 6" width="600" height="200" />
         </div>
+
         <div>
           <img src="/assets/carousel-img-7.JPG" alt="Solar Panel 7" width="600" height="200" />
         </div>
+        
       </Carousel>
     </div>
   );
