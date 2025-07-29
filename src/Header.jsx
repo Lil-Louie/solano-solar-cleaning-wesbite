@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Header.css';
-import logo from '/assets/solano-logo2.jpg'; 
+import logo from '/assets/solano-logo2.png'; 
 
 
 export default function Header() {
