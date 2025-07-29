@@ -9,8 +9,7 @@ export default function Services() {
         {/* Bird Proofing */}
         <div className="service-card">
           <div className='card-body'>
-            <h3>Bird Proofing Your Solar Panels</h3>
-            <p><strong>*Prices Starting at $6.50 Per Linear Foot</strong></p>
+            <h3>Solar Panel Bird Proofing</h3>
             <p>
               Don’t let birds compromise the efficiency and longevity of your solar panels!
               Our expert bird-proofing services are designed to safeguard your solar investment 
@@ -21,6 +20,7 @@ export default function Services() {
               panels without harming wildlife. From stainless steel mesh to custom deterrents, we provide a seamless,
               non-invasive installation to ensure lasting protection.
             </p>
+            <p><strong>*Prices Starting at $6.50 Per Linear Foot</strong></p>
           </div>
           <img src="/assets/service-1.webp" alt="Bird Proofing" className="service-img" />
         </div>
