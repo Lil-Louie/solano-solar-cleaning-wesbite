@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;     /* Vertically center content */
-  min-height: 70px;           /* Make it taller if content wraps */
+  min-height: 75px;           /* Make it taller if content wraps */
 }
 
 .faq-item.left-column {
