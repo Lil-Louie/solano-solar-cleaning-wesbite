@@ -29,14 +29,14 @@ export default function Services() {
         {/* Solar Panel Cleaning */}
         <div className="service-card">
           <div className='card-body'>
-            <h3>Expert Residential Solar Panel Washing</h3>
+            <h3>Expert Residential Solar Panel Cleaning</h3>
+            <p>
+              We use a specialized brush designed specifically for solar panel cleaning to enhance 
+              solar efficiency and longevity. Regular cleaning helps your panels operate at peak performance.
+            </p>
             <p >
               <strong>Single Story:</strong> $150 (20 panels)<br />
               <strong>Two Story:</strong> $200 (20 panels)
-            </p>
-            <p>
-              We use a specialized brush designed specifically for solar panel cleaning to enhance 
-              solar efficiency and longevity. Regular washing helps your panels operate at peak performance.
             </p>
           </div>
           <img src="/assets/service-2.webp" alt="Solar Panel Cleaning" className="service-img" />
@@ -47,12 +47,12 @@ export default function Services() {
         <div className="service-card">
           <div className='card-body'>
             <h3>Gutter Cleaning Services</h3>
-            <p><strong>Call to get an estimate</strong></p>
             <p>
               Don’t let clogged gutters cause unnecessary water damage to your home!
               Our quality care clears the path for water to exit your roof and prevents buildup that could
               rot your roofing or fascia.
             </p>
+            <p><strong>Call to get an estimate</strong></p>
           </div>
           <img src="/assets/service-3.webp" alt="Gutter Cleaning" className="service-img" />
         </div>
