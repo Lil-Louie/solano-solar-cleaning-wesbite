@@ -15,17 +15,13 @@ export default function App() {
   return (
     <div className="app">
           <title>Solano Solar Cleaning</title> 
-
-      <ComingSoon/>
-{/*
-
       <Header/>
 
       <main>
       <Carousel />
         <section id='services'>
 
-          {  <Services /> *}
+  {/*  <Services /> */}
 
           <Services_rows /> 
          </section>
@@ -38,7 +34,6 @@ export default function App() {
       <section id='contact'>
         <Footer />
       </section>
-  */}
 
     </div>
   );

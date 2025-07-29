@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-      <a href="/" className="solano-logo" aria-label="Go to homepage">
+      <a href="/" className="footer-logo" aria-label="Go to homepage">
         <img src={logo} alt="Solano Solar Cleaning Logo" />
       </a>
 

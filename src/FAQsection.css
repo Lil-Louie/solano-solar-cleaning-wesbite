@@ -27,6 +27,8 @@
   color: white;
   display: flex;
   flex-direction: column;
+  justify-content: center;     /* Vertically center content */
+  min-height: 60px;           /* Make it taller if content wraps */
 }
 
 .faq-item.left-column {
@@ -60,13 +62,23 @@
   grid-column: 1 / -1;
   justify-self: center;
   text-align: center;
+  max-width: 570px; /* or any width you prefer */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Responsive: Stack items in a single column on small screens */
 @media (max-width: 768px) {
   .faq-grid {
     grid-template-columns: 1fr;
     justify-items: center;
+  }
+
+  .faq-item {
+    width: 100%;
+    max-width: 600px; /* Set your desired mobile width */
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .faq-item.left-column,
@@ -74,5 +86,6 @@
   .faq-item.full-span {
     grid-column: 1;
     justify-self: center;
+    text-align: left; /* or center if preferred */
   }
 }

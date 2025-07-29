@@ -6,9 +6,6 @@
   padding: 0.5rem 1.2rem; /* smaller padding */
   font-family: "Poppins", sans-serif;
 }
-.hamburger {
-  display: none;
-}
 
 .navbar-container {
   display: flex;
@@ -16,7 +13,7 @@
   justify-content: space-between;
   max-width: 1300px;
   margin: 0 auto;
-  min-height: 56px; /* optional height control */
+  min-height: 64px; /* optional height control */
 }
 
 /* === Logo === */
@@ -26,7 +23,12 @@
 }
 
 .navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   min-width: 100px;
+  justify-content: flex-end;
+
 }
 
 /* === Links === */
@@ -48,21 +50,29 @@
   color: #00b2e3;
 }
 
-/* === Button === */
-.book-button {
-  background-color: #00b2e3;
-  color: white;
-  padding: 0.4rem 1rem;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+/* === Call Button === */
+.call-button {
+  margin: 0 !important; /* override any default */
+  padding: 0.6rem 1.2rem;
+  line-height: 1;
+  display: inline-flex;        /* Better control than inline-block */
+  align-items: center;         /* Vertical center text */
+  justify-content: center;
+  background-color: #00d1ff;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background 0.3s;
   font-size: 0.9rem;
-  transition: background-color 0.3s ease;
+  box-sizing: border-box;
 }
 
-.book-button:hover {
-  background-color: #0099c7;
+
+.call-button:hover {
+  background-color: #00aacc;
 }
+
 
 
 
@@ -71,26 +81,38 @@
 
 /* === Responsive === */
  /* ==== Mobile ==== */
-
-@media (max-width: 768px) {
-  .navbar {
-    padding: 0.5rem 1rem;
-  }
-
+ @media (max-width: 768px) {
+  /* Hide nav links */
   .navbar-links {
-    gap: 1rem;
+    display: none;
   }
 
-  .navbar-links a {
-    font-size: 18px;
-  }
-
-  .book-button {
-    padding: 0.35rem 0.9rem;
-    font-size: 0.85rem;
+  /* Center logo absolutely */
+  .solano-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
   }
 
   .solano-logo img {
-    width: 140px;
+    width: 130px;
+    height: 85px;
+  }
+
+  /* Keep call button aligned right */
+  .navbar-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .call-button {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
   }
 }
+
+
+

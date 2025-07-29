@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header className="navbar">
       <div className="navbar-container">
-      <a href="/" className="solano-logo" aria-label="Go to homepage">
+        <a href="/" className="solano-logo" aria-label="Go to homepage">
           <img id="header-img" src="/assets/solano-logo.jpg" alt="Solano Solar Logo" />
         </a>
 
@@ -18,21 +18,10 @@ export default function Header() {
         </nav>
 
         <div className="navbar-right">
-          <a href="tel:+17076461859" className="book-button" aria-label="Book Your Service">
-            <div className="main-heading-group">
-              <div className="button-icon-start"></div>
-              <div className="main-heading-button">(707) 646-1859</div>
-              <div className="button-icon-end"></div>
-            </div>
+          {/* Call Button - visible only on desktop */}
+          <a href="tel:+17076461859" className="call-button">
+            (707) 646-1859
           </a>
-
-          <button
-            className="hamburger"
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Toggle navigation"
-          >
-            &#9776;
-          </button>
         </div>
       </div>
     </header>

@@ -16,6 +16,7 @@ export default function ImageCarousel() {
         <div>
           <img src="assets/carousel-img-1.jpg" alt="Solar Panel 1" width="300" height="200" />
         </div>
+        {/*
         <div>
           <img src="/assets/carousel-img-2.jpg" alt="Solar Panel 2" width="600" height="200" />
         </div>
@@ -28,6 +29,7 @@ export default function ImageCarousel() {
         <div>
           <img src="/assets/carousel-img-5.jpg" alt="Solar Panel 5" width="600" height="200" />
         </div>
+        */}
       </Carousel>
     </div>
   );
