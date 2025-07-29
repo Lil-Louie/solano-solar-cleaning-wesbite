@@ -14,11 +14,11 @@ export default function ImageCarousel() {
         transitionTime={600}
       >
         <div>
-          <img src="/assets/carousel-img-1.JPG" alt="Solar Panel 1" width="300" height="200" />
+          <img src="/assets/carousel-img-1.JPEG" alt="Solar Panel 1" width="300" height="200" />
         </div>
 
         <div>
-          <img src="/assets/carousel-img-2.JPG" alt="Solar Panel 2" width="600" height="200" />
+          <img src="/assets/carousel-img-2.JPEG" alt="Solar Panel 2" width="600" height="200" />
         </div>
 
         <div>
