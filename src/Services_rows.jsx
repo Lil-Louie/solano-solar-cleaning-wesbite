@@ -6,6 +6,25 @@ export default function Services() {
       <h1>Services</h1>
       <div className="service-rows">
 
+
+
+        {/* Solar Panel Cleaning */}
+        <div className="service-card">
+          <div className='card-body'>
+            <h3>Expert Residential Solar Panel Cleaning</h3>
+            <p>
+              We use a specialized brush designed specifically for solar panel cleaning to enhance 
+              solar efficiency and longevity. Regular cleaning helps your panels operate at peak performance.
+            </p>
+            <p >
+              <strong>Single Story:</strong> $150 (20 panels)<br />
+              <strong>Two Story:</strong> $200 (20 panels)
+            </p>
+          </div>
+          <img src="/assets/service-2.webp" alt="Solar Panel Cleaning" className="service-img" />
+        </div>
+
+        
         {/* Bird Proofing */}
         <div className="service-card">
           <div className='card-body'>
@@ -23,23 +42,6 @@ export default function Services() {
             <p><strong>*Prices Starting at $6.50 Per Linear Foot</strong></p>
           </div>
           <img src="/assets/service-1.webp" alt="Bird Proofing" className="service-img" />
-        </div>
-
-
-        {/* Solar Panel Cleaning */}
-        <div className="service-card">
-          <div className='card-body'>
-            <h3>Expert Residential Solar Panel Cleaning</h3>
-            <p>
-              We use a specialized brush designed specifically for solar panel cleaning to enhance 
-              solar efficiency and longevity. Regular cleaning helps your panels operate at peak performance.
-            </p>
-            <p >
-              <strong>Single Story:</strong> $150 (20 panels)<br />
-              <strong>Two Story:</strong> $200 (20 panels)
-            </p>
-          </div>
-          <img src="/assets/service-2.webp" alt="Solar Panel Cleaning" className="service-img" />
         </div>
 
 
