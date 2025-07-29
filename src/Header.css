@@ -80,7 +80,7 @@
 
 
 
-/@media (max-width: 768px) {
+@media (max-width: 768px) {
   /* Hide nav links */
   .navbar-links {
     display: none;
@@ -95,7 +95,7 @@
 
   .solano-logo img {
     width: 130px;
-    height: 85px;
+    height: 60px;
   }
 
   /* Keep call button aligned right */
