@@ -1,5 +1,5 @@
 import './Footer.css';
-import logo from '/assets/solano-logo.jpg'; 
+import logo from '/assets/solano-logo2.jpg'; 
 
 export default function Footer() {
   return (

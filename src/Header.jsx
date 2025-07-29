@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './Header.css';
+import logo from '/assets/solano-logo2.jpg'; 
+
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,7 +10,7 @@ export default function Header() {
     <header className="navbar">
       <div className="navbar-container">
         <a href="/" className="solano-logo" aria-label="Go to homepage">
-          <img id="header-img" src="/assets/solano-logo.jpg" alt="Solano Solar Logo" />
+          <img src={logo} alt="Solano Solar Cleaning Logo" />
         </a>
 
         <nav className={`navbar-links ${menuOpen ? 'open' : ''}`}>
