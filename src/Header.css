@@ -80,20 +80,17 @@
 
 
 
-/* === Responsive === */
- /* ==== Mobile ==== */
- @media (max-width: 768px) {
+/@media (max-width: 768px) {
   /* Hide nav links */
   .navbar-links {
     display: none;
   }
 
-  /* Center logo absolutely */
+  /* Align logo to the left */
   .solano-logo {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
+    position: static;           /* Reset position */
+    transform: none;            /* Remove centering */
+    z-index: auto;
   }
 
   .solano-logo img {
@@ -114,6 +111,7 @@
     font-size: 0.85rem;
   }
 }
+
 
 
 
