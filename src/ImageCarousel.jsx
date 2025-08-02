@@ -13,7 +13,7 @@ export default function ImageCarousel() {
         infiniteLoop
         showThumbs={false}
         showStatus={false}
-        interval={3000}
+        interval={5000}
         transitionTime={600}
       >
         {isMobile ? (
@@ -35,9 +35,9 @@ export default function ImageCarousel() {
           // === Desktop: Two images per slide ===
           [
             ["/assets/carousel-img-1.JPEG", "/assets/carousel-img-2.JPEG"],
-            ["/assets/carousel-img-3.jpeg", "/assets/carousel-img-4.JPG"],
-            ["/assets/carousel-img-5.JPG", "/assets/carousel-img-6.JPG"],
-            ["/assets/carousel-img-7.JPG", "/assets/carousel-img-1.JPEG"]
+            ["/assets/carousel-img-6.JPG", "/assets/carousel-img-3.jpeg"],
+            ["/assets/carousel-img-4.JPG", "/assets/carousel-img-5.JPG"],
+            ["/assets/carousel-img-6.JPG", "/assets/carousel-img-7.JPG"]
           ].map((pair, i) => (
             <div key={i} className="slide-group">
               <img src={pair[0]} alt={`Slide ${i * 2 + 1}`} />
