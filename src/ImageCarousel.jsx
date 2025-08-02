@@ -1,8 +1,11 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import "./ImageCarousel.css"
+import "./ImageCarousel.css";
+import useIsMobile from "./useIsMobile";
 
 export default function ImageCarousel() {
+  const isMobile = useIsMobile();
+
   return (
     <div className="carousel-wrapper">
       <Carousel
@@ -13,34 +16,35 @@ export default function ImageCarousel() {
         interval={3000}
         transitionTime={600}
       >
-        <div>
-          <img src="/assets/carousel-img-1.JPEG" alt="Solar Panel 1" width="300" height="200" />
-        </div>
-
-        <div>
-          <img src="/assets/carousel-img-2.JPEG" alt="Solar Panel 2" width="600" height="200" />
-        </div>
-
-        <div>
-          <img src="/assets/carousel-img-3.jpeg" alt="Solar Panel 3" width="600" height="200" />
-        </div>
-
-        <div>
-          <img src="/assets/carousel-img-4.JPG" alt="Solar Panel 4" width="600" height="200" />
-        </div>
-
-        <div>
-          <img src="/assets/carousel-img-5.JPG" alt="Solar Panel 5" width="600" height="200" />
-        </div>
-
-        <div>
-          <img src="/assets/carousel-img-6.JPG" alt="Solar Panel 6" width="600" height="200" />
-        </div>
-
-        <div>
-          <img src="/assets/carousel-img-7.JPG" alt="Solar Panel 7" width="600" height="200" />
-        </div>
-
+        {isMobile ? (
+          // === Mobile: One image per slide ===
+          [
+            "/assets/carousel-img-1.JPEG",
+            "/assets/carousel-img-2.JPEG",
+            "/assets/carousel-img-3.jpeg",
+            "/assets/carousel-img-4.JPG",
+            "/assets/carousel-img-5.JPG",
+            "/assets/carousel-img-6.JPG",
+            "/assets/carousel-img-7.JPG"
+          ].map((src, i) => (
+            <div key={i} className="mobile-slide">
+              <img src={src} alt={`Mobile slide ${i + 1}`} />
+            </div>
+          ))
+        ) : (
+          // === Desktop: Two images per slide ===
+          [
+            ["/assets/carousel-img-1.JPEG", "/assets/carousel-img-2.JPEG"],
+            ["/assets/carousel-img-3.jpeg", "/assets/carousel-img-4.JPG"],
+            ["/assets/carousel-img-5.JPG", "/assets/carousel-img-6.JPG"],
+            ["/assets/carousel-img-7.JPG", "/assets/carousel-img-1.JPEG"]
+          ].map((pair, i) => (
+            <div key={i} className="slide-group">
+              <img src={pair[0]} alt={`Slide ${i * 2 + 1}`} />
+              <img src={pair[1]} alt={`Slide ${i * 2 + 2}`} />
+            </div>
+          ))
+        )}
       </Carousel>
     </div>
   );
