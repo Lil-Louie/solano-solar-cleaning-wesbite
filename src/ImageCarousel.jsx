@@ -35,7 +35,7 @@ export default function ImageCarousel() {
           // === Desktop: Two images per slide ===
           [
             ["/assets/carousel-img-1.JPEG", "/assets/carousel-img-2.JPEG"],
-            ["/assets/carousel-img-6.JPG", "/assets/carousel-img-3.jpeg"],
+            ["/assets/carousel-img-8.jpeg", "/assets/carousel-img-3.jpeg"],
             ["/assets/carousel-img-4.JPG", "/assets/carousel-img-5.JPG"],
             ["/assets/carousel-img-6.JPG", "/assets/carousel-img-7.JPG"]
           ].map((pair, i) => (
