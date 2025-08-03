@@ -13,8 +13,11 @@ export default function Services() {
           <div className='card-body'>
             <h3>Expert Residential Solar Panel Cleaning</h3>
             <p>
-              We use a specialized brush designed specifically for solar panel cleaning to enhance 
-              solar efficiency and longevity. Regular cleaning helps your panels operate at peak performance.
+            We employ the safest and most effective method currently available for cleaning
+             solar panels. Our approach is entirely free of chemicals, utilizing deionized 
+             water filtration along with specialty bristled brushes specifically crafted for
+              solar panel maintenance. This technique guarantees adherence to all warranty stipulations
+               and yields outstanding results, enabling your solar system to function at peak efficiency.
             </p>
             <p >
               <strong>Single Story:</strong> $150 (20 panels)<br />
