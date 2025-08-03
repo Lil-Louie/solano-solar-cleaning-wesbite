@@ -20,8 +20,8 @@ export default function Services() {
                and yields outstanding results, enabling your solar system to function at peak efficiency.
             </p>
             <p >
-              <strong>Single Story:</strong> $150 (20 panels)<br />
-              <strong>Two Story:</strong> $200 (20 panels)
+              <strong>Single Story Home:</strong> $150 (Up to 20 panels)<br />
+              <strong>Two Story Home:</strong> $200 (Up to 20 panels)
             </p>
           </div>
           <img src="/assets/service-2.webp" alt="Solar Panel Cleaning" className="service-img" />
