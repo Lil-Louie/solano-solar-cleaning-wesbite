@@ -3,7 +3,7 @@ import './Services.css';
 export default function Services() {
   return (
     <section className="services-pricing" id="pricing">
-      <h2>Our Services</h2>
+      <h2 >Our Services</h2>
       <div className="service-columns">
 
         {/* Bird Proofing */}
