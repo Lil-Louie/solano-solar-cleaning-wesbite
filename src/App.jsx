@@ -10,7 +10,7 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="app">
+    <div className="app bg-gradient-to-t from-black to-blue-900" >
       <title className=''>Solano Solar Cleaning</title>
       <Header />
       <main>
@@ -19,7 +19,7 @@ export default function App() {
           <Services_rows />
         </section>
         <section id="reviews">
-          {/*<Reviews />*/}
+          <Reviews />
         </section>
         <section id="faq">
           <FAQSection />

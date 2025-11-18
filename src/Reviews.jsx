@@ -7,7 +7,7 @@ export default function Reviews() {
 
             <div className="text-center  px-4">
                 <h2 className="font-[Poppins] font-medium text-5xl font-bold p-8 text-[#00b2e3] ">
-                    A word from our customers
+                What Our Clients Say About Us
                 </h2>
 
                 <iframe
