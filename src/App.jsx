@@ -10,7 +10,7 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="app bg-gradient-to-t from-black to-blue-900" >
+    <div className="app " >
       <title className=''>Solano Solar Cleaning</title>
       <Header />
       <main>

@@ -13,7 +13,7 @@ export default function Header() {
         <a href="/" className="solano-logo" aria-label="Go to homepage">
           <img src={logo} alt="Solano Solar Cleaning Logo" />
         </a>
-        <section  className='ISCA-CERT w-35'>
+        <section  className='ISCA-CERT w-35 '>
           <img src= "/assets/isca-cert.png"/>  
         </section>
         </div>
