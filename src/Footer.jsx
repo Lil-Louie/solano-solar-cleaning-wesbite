@@ -1,3 +1,4 @@
+import { Divide } from 'lucide-react';
 import './Footer.css';
 import logo from '/assets/solano-logo2.png'; 
 
@@ -18,6 +19,10 @@ export default function Footer() {
         <div className="footer-social">
           <a href="https://www.facebook.com/solanosolarcleaning/" aria-label="Facebook" className="social-icon"></a>
           <a href="#" aria-label="Instagram" className="social-icon"></a>
+        </div>
+
+        <div className='ISCA-Logo '>
+          <img src= "/assets/isca-cert.png" className='w-40'/>
         </div>
       </div>
     </footer>

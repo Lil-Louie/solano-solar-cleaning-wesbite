@@ -9,9 +9,15 @@ export default function Header() {
   return (
     <header className="navbar">
       <div className="navbar-container">
+        <div className='flex align-center'>
         <a href="/" className="solano-logo" aria-label="Go to homepage">
           <img src={logo} alt="Solano Solar Cleaning Logo" />
         </a>
+        <section  className='ISCA-CERT w-35'>
+          <img src= "/assets/isca-cert.png"/>  
+        </section>
+        </div>
+
 
         <nav className={`navbar-links ${menuOpen ? 'open' : ''}`}>
           <a href="#services">Services</a>
