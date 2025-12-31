@@ -1,66 +1,87 @@
-🌞 Solano Solar Panel Cleaning Website
-A modern, responsive website for Solano Solar Panel Cleaning, built with React, Vite, and Tailwind CSS.
-The site highlights services, customer reviews, FAQs, and delivers a fast, clean user experience across all devices.
+# Solano Solar Panel Cleaning Website
 
-🚀 Tech Stack
-React – Component-based UI
-Vite – Fast development & build tool
-Tailwind CSS – Utility-first styling
-JavaScript (ES6+)
-ESLint – Code quality and consistency
+Official website for **Solano Solar Panel Cleaning**, built with **React** and **Vite**.
 
-✨ Features
-⚡ Fast performance with Vite + HMR
-📱 Fully responsive (mobile-first design)
-🧼 Solar panel cleaning services section
-⭐ Customer reviews
-❓ FAQ section
-🎠 Image & content carousels
-🧩 Modular, reusable React components
+---
 
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- ESLint
+
+---
+
+## Features
+
+- Responsive layout (mobile and desktop)
+- Services section
+- Customer reviews
+- FAQ section
+- Image carousels
+- Modular React components
+
+---
+
+## Project Structure
+
+```text
 my-project/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── index.css
-│   ├── App.css
-│   ├── Header.jsx / Header.css
-│   ├── Hero.jsx / Hero.css
-│   ├── Services.jsx / Services.css
-│   ├── Services_rows.jsx / Services_rows.css
-│   ├── Carousel.jsx / Carousel.css
-│   ├── ImageCarousel.jsx / ImageCarousel.css
-│   ├── Reviews.jsx / Reviews.css
-│   ├── FAQsection.jsx / FAQsection.css
-│   ├── Comingsoon.jsx / Comingsoon.css
-│   ├── Footer.jsx / Footer.css
-│   └── useIsMobile.jsx
-├── index.html
-├── vite.config.js
-├── tailwind.config.mjs
-├── eslint.config.js
-├── package.json
-└── README.md
+  public/
+  src/
+    assets/
+    App.jsx
+    main.jsx
+    Header.jsx
+    Hero.jsx
+    Services.jsx
+    Reviews.jsx
+    FAQsection.jsx
+    Footer.jsx
+  index.html
+  vite.config.js
+  tailwind.config.mjs
+  package.json
+```
 
+---
 
-🛠️ Getting Started
-Install dependencies
+## Getting Started
+
+Install dependencies:
+
+```bash
 npm install
-Start the development server
-npm run dev
-Build for production
-npm run build
-Preview production build
-npm run preview
+```
 
-🌍 Deployment
-This site can be deployed using:
-Netlify
-Vercel
-GitHub Pages
-Any static hosting provider
-After building:
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
 npm run build
-Deploy the contents of the dist/ folder.
+```
+
+---
+
+## Deployment
+
+Build the project and deploy the `dist/` folder using Netlify, Vercel, or any static hosting provider.
+
+---
+
+## License
+
+Private project for Solano Solar Panel Cleaning.
+
+---
+
+## Contact
+
+Solano Solar Panel Cleaning
