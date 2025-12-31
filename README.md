@@ -1,15 +1,67 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# solano-solar-cleaning-wesbite
-# solano-solar-cleaning-wesbite
-# solano-solar-cleaning-wesbite
+🌞 Solano Solar Panel Cleaning Website
+A modern, responsive website for Solano Solar Panel Cleaning, built with React, Vite, and Tailwind CSS.
+The site highlights services, customer reviews, FAQs, and delivers a fast, clean user experience across all devices.
+🚀 Tech Stack
+React – Component-based UI
+Vite – Fast development & build tool
+Tailwind CSS – Utility-first styling
+JavaScript (ES6+)
+ESLint – Code quality and consistency
+✨ Features
+⚡ Fast performance with Vite + HMR
+📱 Fully responsive (mobile-first design)
+🧼 Solar panel cleaning services section
+⭐ Customer reviews
+❓ FAQ section
+🎠 Image & content carousels
+🧩 Modular, reusable React components
+📂 Project Structure
+my-project/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   ├── App.css
+│   ├── Header.jsx / Header.css
+│   ├── Hero.jsx / Hero.css
+│   ├── Services.jsx / Services.css
+│   ├── Services_rows.jsx / Services_rows.css
+│   ├── Carousel.jsx / Carousel.css
+│   ├── ImageCarousel.jsx / ImageCarousel.css
+│   ├── Reviews.jsx / Reviews.css
+│   ├── FAQsection.jsx / FAQsection.css
+│   ├── Comingsoon.jsx / Comingsoon.css
+│   ├── Footer.jsx / Footer.css
+│   └── useIsMobile.jsx
+├── index.html
+├── vite.config.js
+├── tailwind.config.mjs
+├── eslint.config.js
+├── package.json
+└── README.md
+🛠️ Getting Started
+Install dependencies
+npm install
+Start the development server
+npm run dev
+Build for production
+npm run build
+Preview production build
+npm run preview
+🎨 Styling
+Tailwind CSS for layout and utility styling
+Component-specific CSS for custom styles
+Optimized production CSS output
+🔍 ESLint
+ESLint is configured to help maintain clean, consistent, and readable code.
+🌍 Deployment
+This site can be deployed using:
+Netlify
+Vercel
+GitHub Pages
+Any static hosting provider
+After building:
+npm run build
+Deploy the contents of the dist/ folder.
