@@ -1,12 +1,14 @@
 🌞 Solano Solar Panel Cleaning Website
 A modern, responsive website for Solano Solar Panel Cleaning, built with React, Vite, and Tailwind CSS.
 The site highlights services, customer reviews, FAQs, and delivers a fast, clean user experience across all devices.
+
 🚀 Tech Stack
 React – Component-based UI
 Vite – Fast development & build tool
 Tailwind CSS – Utility-first styling
 JavaScript (ES6+)
 ESLint – Code quality and consistency
+
 ✨ Features
 ⚡ Fast performance with Vite + HMR
 📱 Fully responsive (mobile-first design)
@@ -15,7 +17,7 @@ ESLint – Code quality and consistency
 ❓ FAQ section
 🎠 Image & content carousels
 🧩 Modular, reusable React components
-📂 Project Structure
+
 my-project/
 ├── public/
 ├── src/
@@ -41,6 +43,8 @@ my-project/
 ├── eslint.config.js
 ├── package.json
 └── README.md
+
+
 🛠️ Getting Started
 Install dependencies
 npm install
@@ -50,12 +54,7 @@ Build for production
 npm run build
 Preview production build
 npm run preview
-🎨 Styling
-Tailwind CSS for layout and utility styling
-Component-specific CSS for custom styles
-Optimized production CSS output
-🔍 ESLint
-ESLint is configured to help maintain clean, consistent, and readable code.
+
 🌍 Deployment
 This site can be deployed using:
 Netlify
