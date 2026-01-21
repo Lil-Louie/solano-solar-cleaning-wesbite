@@ -77,6 +77,27 @@
 
 
 
+/* group logo + cert */
+.brand-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+/* Logo scales smoothly */
+.solano-logo img {
+  width: clamp(140px, 22vw, 250px);
+  height: auto;
+  display: block;
+}
+
+/* Cert scales smoothly */
+.isca-cert img {
+  width: clamp(70px, 10vw, 110px);
+  height: auto;
+  display: block;
+}
 
 
 
@@ -97,7 +118,7 @@
     width: 140px;
     height: 65px;
   }
-
+  
   .ISCA-CERT img {
     width: 110px;
     height: 65px;
@@ -120,3 +141,7 @@
 
 
 
+.solano-logo,
+.isca-cert {
+  flex: 0 0 auto;
+}
