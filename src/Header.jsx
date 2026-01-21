@@ -8,7 +8,6 @@ export default function Header() {
   return (
       <header className="navbar">
       <div className="navbar-container">
-        <div className="flex align-center">
 
         <div className="brand-row">
           <a href="/" className="solano-logo" aria-label="Go to homepage">
@@ -18,9 +17,7 @@ export default function Header() {
           <section className="isca-cert">
             <img src="/assets/isca-cert.png" alt="ISCA Certification" />
           </section>
-        </div>
-
-        </div>
+      </div>
 
 
 

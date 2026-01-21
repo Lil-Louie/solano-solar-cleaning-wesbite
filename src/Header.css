@@ -132,16 +132,17 @@
   }
 
   .call-button {
-    display: inline-block;
     padding: 0.6rem 1rem;
     font-size: 0.85rem;
+    min-width: auto;
+    border-radius: 10px;
   }
-}
-
-
 
 
 .solano-logo,
 .isca-cert {
   flex: 0 0 auto;
 }
+
+}
+
